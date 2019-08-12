@@ -10,6 +10,7 @@
           <e p="Hotbar.cs" t="Include" />
           <e p="HotbarButton.cs" t="Include" />
           <e p="MouseController.cs" t="Include" />
+          <e p="TestMove.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">

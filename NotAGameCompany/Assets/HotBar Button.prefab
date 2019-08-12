@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 222885369195658826}
   - component: {fileID: 114218086444902906}
   - component: {fileID: 114642353601603138}
+  - component: {fileID: 114514366888841510}
   m_Layer: 5
   m_Name: HotBar Button
   m_TagString: Untagged
@@ -186,6 +187,20 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114514366888841510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1392559470731202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d5d3e3e90545443295a218e96bf3706, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 0}
+  selectableAssest: {fileID: 0}
+  _hotBar: {fileID: 0}
 --- !u!114 &114642353601603138
 MonoBehaviour:
   m_ObjectHideFlags: 1
