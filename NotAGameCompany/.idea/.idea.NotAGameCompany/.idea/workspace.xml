@@ -3,11 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="4fe92fc0-d594-4da0-910b-0a133a8a2cb2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotAGameCompany/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotAGameCompany/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NotAGameCompany/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotAGameCompany/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NotAGameCompany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NotAGameCompany/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HotBar Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HotBar Button.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ToonyTinyPeople/TT_ww1_demo/prefabs/TT_ww1_demo_german_B.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ToonyTinyPeople/TT_ww1_demo/prefabs/TT_ww1_demo_german_B.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ToonyTinyPeople/TT_ww1_demo/prefabs/british_A.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ToonyTinyPeople/TT_ww1_demo/prefabs/british_A.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_diffuse_final.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_diffuse_final.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_metal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_metal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_normals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/Materials/true_scarecrow_normals.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/true_scarecrow.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/true_scarecrow.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/True_Horror/True_Scarecrow/true_scarecrow.fbx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Grid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Grid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/Combativeness.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/Combativeness.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scripts/TestMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scripts/TestMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +37,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/AssetsPlacer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="640">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <marker date="1565136422386" expanded="true" signature="62:1162" ph="{...}" />
@@ -55,17 +72,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TestMove.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="416">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1565313586133" expanded="true" signature="6:40" ph="..." />
-                <marker date="1565313586133" expanded="true" signature="120:759" ph="{...}" />
-                <marker date="1565313586133" expanded="true" signature="318:538" ph="{...}" />
-                <marker date="1565313586133" expanded="true" signature="402:498" ph="{...}" />
-                <marker date="1565313586133" expanded="true" signature="505:535" ph="{...}" />
-                <marker date="1565313586133" expanded="true" signature="570:717" ph="{...}" />
-                <marker date="1565313586133" expanded="true" signature="600:714" ph="{...}" />
-                <marker date="1565313586133" expanded="true" signature="748:757" ph="{...}" />
+                <marker date="1565819046422" expanded="true" signature="6:40" ph="..." />
+                <marker date="1565819046422" expanded="true" signature="120:553" ph="{...}" />
+                <marker date="1565819046422" expanded="true" signature="302:406" ph="{...}" />
+                <marker date="1565819046422" expanded="true" signature="430:550" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Combativeness.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <marker date="1565818999816" expanded="true" signature="57:364" ph="{...}" />
+                <marker date="1565818999816" expanded="true" signature="202:362" ph="{...}" />
+                <marker date="1565818999816" expanded="true" signature="267:355" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -74,7 +101,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/HotbarButton.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
+            <state relative-caret-position="630">
               <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
               <folding>
                 <marker date="1565136860908" expanded="false" signature="6:67" ph="..." />
@@ -93,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Scripts/MouseController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
+            <state relative-caret-position="112">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <marker date="1551561084571" expanded="true" signature="63:833" ph="{...}" />
@@ -128,6 +155,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Hotbar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Combativeness.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/HotbarButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/AssetsPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Scripts/Grid.cs" root0="FORCE_HIGHLIGHTING" />
@@ -139,14 +167,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/_Scripts/AssetsPlacer.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/HotbarButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Scripts/TestMove.cs" />
         <option value="$PROJECT_DIR$/Assets/_Scripts/Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/Combativeness.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Scripts/TestMove.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1134" />
-    <option name="y" value="61" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="2671" />
+    <option name="y" value="23" />
     <option name="width" value="1284" />
     <option name="height" value="1057" />
   </component>
@@ -224,11 +253,12 @@
       <workItem from="1565135527851" duration="947000" />
       <workItem from="1565136624989" duration="900000" />
       <workItem from="1565302723838" duration="5207000" />
+      <workItem from="1565817517032" duration="1318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7054000" />
+    <option name="totallyTimeSpent" value="8372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,10 +270,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1134" y="61" width="1284" height="1057" extended-state="0" />
+    <frame x="2671" y="23" width="1284" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17391305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1763285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -290,43 +320,9 @@
     <entry file="file://$PROJECT_DIR$/Assets/MouseController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/HotbarButton.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/AssestsPlacer.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/AssetsPlacer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1565136422386" expanded="true" signature="62:1162" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="279:388" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="416:934" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="454:610" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="535:593" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="646:931" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="858:926" ph="{...}" />
-            <marker date="1565136422386" expanded="true" signature="985:1160" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/HotbarButton.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding>
-            <marker date="1565136860908" expanded="false" signature="6:67" ph="..." />
-            <marker date="1565136860908" expanded="true" signature="109:1451" ph="{...}" />
-            <marker date="1565136860908" expanded="true" signature="458:967" ph="{...}" />
-            <marker date="1565136860908" expanded="true" signature="774:850" ph="{...}" />
-            <marker date="1565136860908" expanded="true" signature="994:1080" ph="{...}" />
-            <marker date="1565136860908" expanded="true" signature="1107:1359" ph="{...}" />
-            <marker date="1565136860908" expanded="true" signature="1228:1349" ph="{...}" />
-            <marker date="1565136860908" expanded="true" signature="1391:1448" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/MouseController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
+        <state relative-caret-position="112">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <marker date="1551561084571" expanded="true" signature="63:833" ph="{...}" />
@@ -351,19 +347,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/AssetsPlacer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <marker date="1565136422386" expanded="true" signature="62:1162" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="279:388" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="416:934" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="454:610" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="535:593" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="646:931" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="858:926" ph="{...}" />
+            <marker date="1565136422386" expanded="true" signature="985:1160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/HotbarButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <marker date="1565136860908" expanded="false" signature="6:67" ph="..." />
+            <marker date="1565136860908" expanded="true" signature="109:1451" ph="{...}" />
+            <marker date="1565136860908" expanded="true" signature="458:967" ph="{...}" />
+            <marker date="1565136860908" expanded="true" signature="774:850" ph="{...}" />
+            <marker date="1565136860908" expanded="true" signature="994:1080" ph="{...}" />
+            <marker date="1565136860908" expanded="true" signature="1107:1359" ph="{...}" />
+            <marker date="1565136860908" expanded="true" signature="1228:1349" ph="{...}" />
+            <marker date="1565136860908" expanded="true" signature="1391:1448" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Scripts/Combativeness.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <marker date="1565818999816" expanded="true" signature="57:364" ph="{...}" />
+            <marker date="1565818999816" expanded="true" signature="202:362" ph="{...}" />
+            <marker date="1565818999816" expanded="true" signature="267:355" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Scripts/TestMove.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="416">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <marker date="1565313586133" expanded="true" signature="6:40" ph="..." />
-            <marker date="1565313586133" expanded="true" signature="120:759" ph="{...}" />
-            <marker date="1565313586133" expanded="true" signature="318:538" ph="{...}" />
-            <marker date="1565313586133" expanded="true" signature="402:498" ph="{...}" />
-            <marker date="1565313586133" expanded="true" signature="505:535" ph="{...}" />
-            <marker date="1565313586133" expanded="true" signature="570:717" ph="{...}" />
-            <marker date="1565313586133" expanded="true" signature="600:714" ph="{...}" />
-            <marker date="1565313586133" expanded="true" signature="748:757" ph="{...}" />
+            <marker date="1565819046422" expanded="true" signature="6:40" ph="..." />
+            <marker date="1565819046422" expanded="true" signature="120:553" ph="{...}" />
+            <marker date="1565819046422" expanded="true" signature="302:406" ph="{...}" />
+            <marker date="1565819046422" expanded="true" signature="430:550" ph="{...}" />
           </folding>
         </state>
       </provider>
