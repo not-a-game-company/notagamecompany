@@ -923,6 +923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  stoppingDistance: 2
 --- !u!114 &114326806001875776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -954,7 +955,7 @@ MonoBehaviour:
     i14: 116
     i15: 200
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 1
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114526067230451882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -979,6 +980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  stoppingDistance: 2
   damage: 3
   attackRange: 4
 --- !u!114 &114893388607206228

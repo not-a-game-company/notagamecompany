@@ -7,6 +7,7 @@
         <e p="_Scripts" t="Include">
           <e p="AssetsPlacer.cs" t="Include" />
           <e p="Combativeness.cs" t="Include" />
+          <e p="FuckFullscreen.cs" t="Include" />
           <e p="Hotbar.cs" t="Include" />
           <e p="HotbarButton.cs" t="Include" />
           <e p="MouseController.cs" t="Include" />

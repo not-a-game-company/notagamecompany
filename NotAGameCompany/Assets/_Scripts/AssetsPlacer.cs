@@ -11,7 +11,7 @@ public class AssetsPlacer : NetworkBehaviour
 	private void Awake()
 	{
 		_playGrid = FindObjectOfType<PlayGrid>();
-		planeForMouseRayProtector = ~(1<<LayerMask.NameToLayer("PlayGrid"));
+		//planeForMouseRayProtector = ~(1<<LayerMask.NameToLayer("PlayGrid"));
 	}
     
 	private void Update()
@@ -24,7 +24,7 @@ public class AssetsPlacer : NetworkBehaviour
 		CmdMouseInput();
 	}
 
-	[Command]
+	//[Command]
 	public void CmdMouseInput()
 	{
 		if (Input.GetMouseButtonDown(0))
@@ -45,10 +45,10 @@ public class AssetsPlacer : NetworkBehaviour
 		}
 	}
 
-	[Command]
+	//[Command]
 	public void CmdPlaceAssest(Vector3 clickPoint)
 	{
-		var finalPosition = _playGrid.CmdGetNearestPointOnGrid(clickPoint); 
+		var finalPosition = _playGrid.GetNearestPointOnGrid(clickPoint); 
 		if (selectedAssest == null){return;}
 		GameObject instanitatedSelectedAssest = Instantiate(selectedAssest, finalPosition, Quaternion.identity);
 		//GameObject owner = this.gameObject;

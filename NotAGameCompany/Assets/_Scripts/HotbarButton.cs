@@ -11,44 +11,49 @@ public class HotbarButton : MonoBehaviour
     private Texture2D tex;
     
     public Hotbar _hotBar;
-    private KeyCode _keyCode;
+    [SerializeField]private KeyCode _keyCode;
     private int _keyNumber;
     public event Action<int> OnButtonClicked;
-    
 
-    private void OnEnable() 
+    private static int x = 0;
+
+    private void LateUpdate()
     {
-        _hotBar = GetComponentInParent<Hotbar>();
         
-        _keyNumber = transform.GetSiblingIndex() + 1;
-        _keyCode = KeyCode.Alpha0 + _keyNumber;
-        selectableAssest = _hotBar.listOfSeletcableAssests[transform.GetSiblingIndex()];//get rid of static list
-        
-        if (_text == null)
-        {
-            _text = GetComponentInChildren<TMP_Text>();
-        }
-        
-        _text.SetText(_keyNumber.ToString());
-        gameObject.name = "HotBar Button" + _keyNumber;
     }
 
+    private void HotBarButtonInfo()
+    {
+        selectableAssest = _hotBar.listOfSeletcableAssests[x];
+            
+            if (_text == null)
+            {
+                _text = GetComponentInChildren<TMP_Text>();
+            }
+            
+            x += 1;
+            _keyCode = KeyCode.Alpha0 + x;
+            _text.SetText(x.ToString());
+    }
 
     private void Awake()
     {
+        _hotBar = FindObjectOfType<Hotbar>();
         GetComponent<Button>().onClick.AddListener(HandleClick);
-        
+    }
+
+    private void OnEnable()
+    {
+      HotBarButtonInfo();
     }
 
     private void Update()
     {
-        if(Hotbar.ListOfSelectableAsset.Count == 0) {Destroy(gameObject);}
         if (Input.GetKeyDown(_keyCode))
         {
             HandleClick();
             AssetsPlacer.selectedAssest = selectableAssest;              
         }
-   
     }
 
     private void HandleClick()

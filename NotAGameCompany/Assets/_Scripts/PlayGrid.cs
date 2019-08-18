@@ -7,10 +7,14 @@ public class PlayGrid : NetworkBehaviour
     [SerializeField] private int rangeX = 40;
     [SerializeField] private int rangeZ = 40;
     [SerializeField] private GameObject sphereMaker;
-	
-    private void Update()
-    {
-        OnDrawBallPit();
+
+    private bool online;
+    private void LateUpdate()
+    { 
+       if(!online){
+         OnDrawBallPit();
+         online = !online; 
+       }
     }
 
     private void OnDrawBallPit()
@@ -18,24 +22,21 @@ public class PlayGrid : NetworkBehaviour
         CmdBallPit();
     }
 
-   // [Command]
-    public void CmdBallPit()
+  [Command]
+   public void CmdBallPit()
     {
-        Gizmos.color = Color.yellow;
         for (float x = 0; x < rangeX; x += size)
         {
             for (float z = 0; z < rangeZ; z += size)
             {
-                var point = CmdGetNearestPointOnGrid(new Vector3(x, 0f, z));
-                //Gizmos.DrawSphere(point, 0.1f);
+                var point = GetNearestPointOnGrid(new Vector3(x, 0f, z));
                 GameObject ballPit = Instantiate(sphereMaker, point, Quaternion.identity);
                 NetworkServer.Spawn(ballPit);
             }
         }
     }
-
-    //[Command]
-    public Vector3 CmdGetNearestPointOnGrid(Vector3 position)
+   
+   public Vector3 GetNearestPointOnGrid(Vector3 position)
     {
         position -= transform.position;
 
