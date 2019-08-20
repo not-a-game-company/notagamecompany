@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
 
-public class MouseController : NetworkBehaviour
+public class MouseController : MonoBehaviour
 {
        private RaycastHit hitInfo;
        private Ray ray;
@@ -10,8 +10,7 @@ public class MouseController : NetworkBehaviour
        public GameObject sphereMaker;
        private void Update()
        {
-             LookToMouse();
-             CmdnewPoint();
+           LookToMouse();
        }
 
        private void LookToMouse()
@@ -23,20 +22,7 @@ public class MouseController : NetworkBehaviour
                     Vector3 newpoint = new Vector3(HitInfo.point.x, transform.position.y, HitInfo.point.z);
                                transform.LookAt(newpoint); 
                                GameObject ballPit = Instantiate(sphereMaker, newpoint, Quaternion.identity);
-                               NetworkServer.Spawn(ballPit);
+                               Instantiate(sphereMaker, newpoint, Quaternion.identity);
               }
-       }
-
-       [Command]
-       void CmdnewPoint()
-       {
-           if(!isServer)
-            RpcnewPoint();
-       }
-
-       [ClientRpc]
-       void RpcnewPoint()
-       {
-          LookToMouse();
        }
 }

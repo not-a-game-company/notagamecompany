@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.Networking;
 
-public class AssetsPlacer : NetworkBehaviour 
+public class AssetsPlacer : MonoBehaviour
 {
 
 	public static GameObject selectedAssest;
@@ -17,21 +16,16 @@ public class AssetsPlacer : NetworkBehaviour
 	private void Update()
 	{
 		MouseInput();
-	}
 
-	public  void MouseInput()
-	{
-		CmdMouseInput();
 	}
-
-	//[Command]
-	public void CmdMouseInput()
+	
+	public void MouseInput()
 	{
 		if (Input.GetMouseButtonDown(0))
 		{
 			if (Physics.Raycast(MouseController.Ray, out MouseController.HitInfo))
 			{
-				CmdPlaceAssest(MouseController.HitInfo.point);
+				placeAssest(MouseController.HitInfo.point);
 			}
 		}
 
@@ -45,40 +39,15 @@ public class AssetsPlacer : NetworkBehaviour
 		}
 	}
 
-	//[Command]
-	public void CmdPlaceAssest(Vector3 clickPoint)
+	public void placeAssest(Vector3 clickPoint)
 	{
 		var finalPosition = _playGrid.GetNearestPointOnGrid(clickPoint); 
 		if (selectedAssest == null){return;}
-		GameObject instanitatedSelectedAssest = Instantiate(selectedAssest, finalPosition, Quaternion.identity);
-		//GameObject owner = this.gameObject;
-		//NetworkServer.SpawnWithClientAuthority(instanitatedSelectedAssest, owner);
-		NetworkServer.Spawn(instanitatedSelectedAssest);
+		Instantiate(selectedAssest, finalPosition, Quaternion.identity);
+		
 	}
 
-	[ClientRpc]
-	void RpcPlaceAssest()
-	{
-		if (!isServer)
-		{
-			if (Input.GetMouseButtonDown(0))
-			{
-				if (Physics.Raycast(MouseController.Ray, out MouseController.HitInfo))
-				{
-					CmdPlaceAssest(MouseController.HitInfo.point);
-				}
-			}
-
-			if (Input.GetMouseButtonDown(1))
-			{
-				if (Physics.Raycast(MouseController.Ray, out MouseController.HitInfo, Mathf.Infinity, planeForMouseRayProtector)
-				) // need to prevent this from deleting the plane that detects the mouse, layers will fix this
-				{
-					Destroy(MouseController.HitInfo.collider.gameObject);
-				}
-			}
-		}
-	}
+	
 
 
 }

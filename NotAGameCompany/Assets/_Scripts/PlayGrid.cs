@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using UnityEngine.Networking;
 
-public class PlayGrid : NetworkBehaviour
+
+public class PlayGrid : MonoBehaviour
 {
     [SerializeField] [Range(1,5)] private float size = 1f;
     [SerializeField] private int rangeX = 40;
@@ -11,27 +11,20 @@ public class PlayGrid : NetworkBehaviour
     private bool online;
     private void LateUpdate()
     { 
-       if(!online){
-         OnDrawBallPit();
-         online = !online; 
-       }
+  
+        BallPit();
     }
 
-    private void OnDrawBallPit()
-    {
-        CmdBallPit();
-    }
 
-  [Command]
-   public void CmdBallPit()
+   public void BallPit()
     {
         for (float x = 0; x < rangeX; x += size)
         {
             for (float z = 0; z < rangeZ; z += size)
             {
                 var point = GetNearestPointOnGrid(new Vector3(x, 0f, z));
-                GameObject ballPit = Instantiate(sphereMaker, point, Quaternion.identity);
-                NetworkServer.Spawn(ballPit);
+                Instantiate(sphereMaker, point, Quaternion.identity);
+              
             }
         }
     }
