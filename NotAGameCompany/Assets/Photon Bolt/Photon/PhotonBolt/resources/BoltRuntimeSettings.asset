@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
   debugPlayAsServer: 0
   showDebugInfo: 1
   overrideTimeScale: 1
-  logUncaughtExceptions: 0
+  logUncaughtExceptions: 1
   debugEditorMode: 1
   consoleToggleKey: 9
   consoleVisibleByDefault: 1
@@ -60,7 +60,7 @@ MonoBehaviour:
   masterServerGameId: 09A20926-601A-4EF4-BFEE-374761B0D2A5
   showBoltEntityHints: 0
   serializeProjectAsText: 0
-  photonAppId: 
+  photonAppId: f2f0352b-1555-4e93-9f3b-57afa51f34ae
   photonUsePunch: 1
   photonCloudRegionIndex: 0
   instantiateMode: 2

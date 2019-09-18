@@ -18,4 +18,6 @@ public class FuckFullscreen : MonoBehaviour {
 	void Update () {
 		
 	}
+	
+	
 }

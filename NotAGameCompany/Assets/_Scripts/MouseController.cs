@@ -21,8 +21,7 @@ public class MouseController : MonoBehaviour
               {
                     Vector3 newpoint = new Vector3(HitInfo.point.x, transform.position.y, HitInfo.point.z);
                                transform.LookAt(newpoint); 
-                               GameObject ballPit = Instantiate(sphereMaker, newpoint, Quaternion.identity);
-                               Instantiate(sphereMaker, newpoint, Quaternion.identity);
+
               }
        }
 }

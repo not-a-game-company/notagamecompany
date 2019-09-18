@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class AssetsPlacer : MonoBehaviour
+public class AssetsPlacer : Bolt.EntityBehaviour<IClickToMoveState>
 {
 
 	public static GameObject selectedAssest;
@@ -16,12 +16,11 @@ public class AssetsPlacer : MonoBehaviour
 	private void Update()
 	{
 		MouseInput();
-
 	}
 	
 	public void MouseInput()
 	{
-		if (Input.GetMouseButtonDown(0))
+		if (Input.GetMouseButtonDown(0) )
 		{
 			if (Physics.Raycast(MouseController.Ray, out MouseController.HitInfo))
 			{
@@ -29,7 +28,7 @@ public class AssetsPlacer : MonoBehaviour
 			}
 		}
 
-		if (Input.GetMouseButtonDown(1))
+		if (Input.GetMouseButtonDown(1) )
 		{
 			if (Physics.Raycast(MouseController.Ray, out MouseController.HitInfo, Mathf.Infinity, planeForMouseRayProtector)
 			) // need to prevent this from deleting the plane that detects the mouse, layers will fix this
@@ -46,8 +45,5 @@ public class AssetsPlacer : MonoBehaviour
 		Instantiate(selectedAssest, finalPosition, Quaternion.identity);
 		
 	}
-
 	
-
-
 }

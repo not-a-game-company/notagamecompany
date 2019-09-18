@@ -23,7 +23,7 @@ public class PlayGrid : MonoBehaviour
             for (float z = 0; z < rangeZ; z += size)
             {
                 var point = GetNearestPointOnGrid(new Vector3(x, 0f, z));
-                Instantiate(sphereMaker, point, Quaternion.identity);
+                //Instantiate(sphereMaker, point, Quaternion.identity);
               
             }
         }

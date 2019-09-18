@@ -9,6 +9,7 @@ public class VitalityState : MonoBehaviour
         if (health <= 0)
         {
             Debug.Log("I'm ded");
+            Destroy(gameObject);
         }
     }
 }
